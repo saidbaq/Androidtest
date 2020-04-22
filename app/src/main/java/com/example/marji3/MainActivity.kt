@@ -10,9 +10,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        get.setOnClickListener {
-            val intent = Intent(this, LeagueActivity::class.java)
-            startActivity(intent)
+        getStartedBtn.setOnClickListener {
+            val leagueIntent = Intent(this, LeagueActivity::class.java)
+            startActivity(leagueIntent)
         }
     }
 }
