@@ -1,4 +1,4 @@
-package com.example.marji3
+package com.example.marji3.Controller
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

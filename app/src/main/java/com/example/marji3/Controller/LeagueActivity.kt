@@ -1,9 +1,11 @@
-package com.example.marji3
+package com.example.marji3.Controller
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import com.example.marji3.Utilities.EXTRA_LEAGUE
+import com.example.marji3.R
 import kotlinx.android.synthetic.main.activity_league.*
 
 class LeagueActivity : BaseActivity() {
